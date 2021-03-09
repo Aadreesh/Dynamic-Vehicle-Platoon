@@ -1,0 +1,116 @@
+file 39778 1615184644                                           
+version 2
+run Default-0-20210308-11:51:35-16238
+attr configname Default
+attr datetime 20210308-11:51:35
+attr experiment Default
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Lucky
+attr processid 16238
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param *.playgroundSizeX 2500m
+param *.playgroundSizeY 2500m
+param *.playgroundSizeZ 50m
+param *.annotations.draw true
+param *.manager.updateInterval 1s
+param *.manager.host "\"localhost\""
+param *.manager.port 9999
+param *.manager.autoShutdown true
+param *.manager.launchConfig "xmldoc(\"autobahn.launchd.xml\")"
+param *.rsu[0].mobility.x 1500
+param *.rsu[0].mobility.y 1000
+param *.rsu[0].mobility.z 3
+param *.rsu[*].applType "\"TraCIDemoRSU11p\""
+param *.rsu[*].appl.headerLength "80 bit"
+param *.rsu[*].appl.sendBeacons true
+param *.rsu[*].appl.dataOnSch false
+param *.rsu[*].appl.beaconInterval 5s
+param *.rsu[*].appl.beaconUserPriority 7
+param *.rsu[*].appl.dataUserPriority 5
+param *.rsu[*].nic.phy80211p.antennaOffsetZ "0 m"
+param *.connectionManager.sendDirect true
+param *.connectionManager.maxInterfDist 2600m
+param *.connectionManager.drawMaxIntfDist false
+param *.**.nic.mac1609_4.useServiceChannel false
+param *.**.nic.mac1609_4.txPower 20mW
+param *.**.nic.mac1609_4.bitrate 6Mbps
+param *.**.nic.phy80211p.minPowerLevel -110dBm
+param *.**.nic.phy80211p.useNoiseFloor true
+param *.**.nic.phy80211p.noiseFloor -98dBm
+param *.**.nic.phy80211p.decider "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.analogueModels "xmldoc(\"config.xml\")"
+param *.**.nic.phy80211p.usePropagationDelay true
+param *.**.nic.phy80211p.antenna "xmldoc(\"antenna.xml\", \"/root/Antenna[@id='monopole']\")"
+param *.node[*].nic.phy80211p.antennaOffsetY "0 m"
+param *.node[*].nic.phy80211p.antennaOffsetZ "1.895 m"
+param *.node[*].applType "\"MyVeinsApp\""
+param *.node[*].appl.headerLength "80 bit"
+param *.node[*].appl.sendBeacons false
+param *.node[*].appl.dataOnSch false
+param *.node[*].appl.beaconInterval 1s
+param *.node[*].veinsmobility.x 0
+param *.node[*].veinsmobility.y 0
+param *.node[*].veinsmobility.z 0
+param *.node[*].veinsmobility.setHostSpeed false
+param *.node[*0].veinsmobility.accidentCount 0
+param *.node[*0].veinsmobility.accidentStart 73s
+param *.node[*0].veinsmobility.accidentDuration 50s
+
+vector 0 Lucky.node[0].veinsmobility posx ETV
+vector 1 Lucky.node[0].veinsmobility posy ETV
+vector 2 Lucky.node[0].veinsmobility speed ETV
+vector 3 Lucky.node[0].veinsmobility acceleration ETV
+vector 4 Lucky.node[0].veinsmobility co2emission ETV
+vector 5 Lucky.node[1].veinsmobility posx ETV
+vector 6 Lucky.node[1].veinsmobility posy ETV
+vector 7 Lucky.node[1].veinsmobility speed ETV
+vector 8 Lucky.node[1].veinsmobility acceleration ETV
+vector 9 Lucky.node[1].veinsmobility co2emission ETV
+vector 10 Lucky.node[2].veinsmobility posx ETV
+vector 11 Lucky.node[2].veinsmobility posy ETV
+vector 12 Lucky.node[2].veinsmobility speed ETV
+vector 13 Lucky.node[2].veinsmobility acceleration ETV
+vector 14 Lucky.node[2].veinsmobility co2emission ETV
+vector 15 Lucky.node[3].veinsmobility posx ETV
+vector 16 Lucky.node[3].veinsmobility posy ETV
+vector 17 Lucky.node[3].veinsmobility speed ETV
+vector 18 Lucky.node[3].veinsmobility acceleration ETV
+vector 19 Lucky.node[3].veinsmobility co2emission ETV
+vector 20 Lucky.node[4].veinsmobility posx ETV
+vector 21 Lucky.node[4].veinsmobility posy ETV
+vector 22 Lucky.node[4].veinsmobility speed ETV
+vector 23 Lucky.node[4].veinsmobility acceleration ETV
+vector 24 Lucky.node[4].veinsmobility co2emission ETV
+4	3597 1446 4 445 3 61 59 -1.1030275907297 29.293246763873 616.59138780124 8981.6151280306
+3	5043 1515 4 445 3 61 59 -1.0171435368713 2.5865135943983 38.18182449576 88.088835204376
+2	6558 1469 3 445 2 61 60 1.4392818092834 39.981052548531 1978.5058122539 72867.219603031
+1	8027 883 2 445 1 61 61 109.8 109.8 6697.8 735418.44
+0	8910 1470 2 445 1 61 61 30.1 2008.6058122539 53109.580308748 70670848.437185
+9	10380 1451 26 448 6 64 59 -2.2592516319883 31.547938760774 611.63344561634 9060.9314106721
+8	11831 1515 26 448 6 64 59 -1.1369165567681 2.5901939699426 37.534500556858 92.798995258639
+7	13346 1476 25 448 5 64 60 1.2953648990485 39.936834992818 1990.5588518372 73309.742710034
+6	14822 892 5 448 4 64 61 109.8 109.8 6697.8 735418.44
+5	15714 1483 5 448 4 64 61 30.1 2020.6588518372 53816.106709595 72125052.799298
+14	17197 1514 29 480 9 67 59 -2.725743446964 27.44872624198 610.23373666662 8976.349912688
+13	18711 1574 29 480 9 67 59 -1.1867502881214 2.4212151346728 36.846027003671 85.410198597189
+12	20285 1538 28 480 8 67 60 2.4706868049456 39.951342706475 1981.1807447392 72504.302593106
+11	21823 960 27 480 7 67 61 109.8 109.8 6697.8 735418.44
+10	22783 1553 27 480 7 67 61 30.1 2011.2807447392 53491.109323068 71233638.468672
+19	24336 1521 56 502 12 70 59 -2.7635394851901 28.274201075316 614.27531692656 9282.4923073755
+18	25857 1577 56 502 12 70 59 -1.1915499806637 2.5291831451468 37.245690446766 94.20526055681
+17	27434 1546 55 502 11 70 60 1.6184831429971 39.997062989185 1993.2878615612 73706.286513076
+16	28980 966 54 502 10 70 61 109.8 109.8 6697.8 735418.44
+15	29946 1553 54 502 10 70 61 30.1 2023.3878615612 53889.192832778 72393978.118807
+24	31499 1750 93 542 15 82 68 -1.61799616028 23.286200217789 504.02931786338 5613.4384746015
+23	33249 1836 93 542 15 82 68 -1.1453273956198 2.4377285707975 31.296822580092 76.877192091965
+22	35085 1782 58 542 14 82 69 1.9850660084514 33.293002767863 1984.9787692956 61895.364923853
+21	36867 1113 57 542 13 82 70 109.8 109.8 7686 843922.8
+20	37980 1797 57 542 13 82 70 30.1 2015.0787692956 63736.254223037 85488557.528231
+
