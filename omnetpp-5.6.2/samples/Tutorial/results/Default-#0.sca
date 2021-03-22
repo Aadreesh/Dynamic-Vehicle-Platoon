@@ -1,14 +1,14 @@
 version 2
-run Default-0-20210308-11:51:35-16238
+run Default-0-20210311-01:01:28-10794
 attr configname Default
-attr datetime 20210308-11:51:35
+attr datetime 20210311-01:01:28
 attr experiment Default
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network Lucky
-attr processid 16238
+attr processid 10794
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -68,21 +68,21 @@ scalar Lucky.node[0].appl generatedBSMs 0
 scalar Lucky.node[0].appl receivedBSMs 0
 scalar Lucky.node[0].appl generatedWSAs 0
 scalar Lucky.node[0].appl receivedWSAs 0
-scalar Lucky.node[0].nic.phy80211p busyTime 2.0459016393443e-05
+scalar Lucky.node[0].nic.phy80211p busyTime 1.573215164705e-05
 scalar Lucky.node[0].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.node[0].nic.mac1609_4 ReceivedBroadcasts 0
 scalar Lucky.node[0].nic.mac1609_4 SentPackets 0
 scalar Lucky.node[0].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.node[0].nic.mac1609_4 RetriesExceeded 0
-scalar Lucky.node[0].nic.mac1609_4 SNIRLostPackets 12
+scalar Lucky.node[0].nic.mac1609_4 SNIRLostPackets 2
 scalar Lucky.node[0].nic.mac1609_4 RXTXLostPackets 0
-scalar Lucky.node[0].nic.mac1609_4 TotalLostPackets 12
+scalar Lucky.node[0].nic.mac1609_4 TotalLostPackets 2
 scalar Lucky.node[0].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.node[0].nic.mac1609_4 TooLittleTime 0
 scalar Lucky.node[0].nic.mac1609_4 TimesIntoBackoff 0
 scalar Lucky.node[0].nic.mac1609_4 SlotsBackoff 0
 scalar Lucky.node[0].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.node[0].nic.mac1609_4 totalBusyTime 0.001248
+scalar Lucky.node[0].nic.mac1609_4 totalBusyTime 0.000208
 scalar Lucky.node[0].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.node[0].nic.mac1609_4 sentAcks:count 0
@@ -91,36 +91,36 @@ scalar Lucky.node[0].nic.mac1609_4 sentPackets:count 0
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.node[0].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.node[0].nic.mac1609_4 channelBusy:timeavg 2.0459016393443e-05
+scalar Lucky.node[0].nic.mac1609_4 channelBusy:timeavg 1.573215164705e-05
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 scalar Lucky.node[0].veinsmobility startTime 1
-scalar Lucky.node[0].veinsmobility totalTime 60
-scalar Lucky.node[0].veinsmobility stopTime 62
+scalar Lucky.node[0].veinsmobility totalTime 13
+scalar Lucky.node[0].veinsmobility stopTime 14.221332
 scalar Lucky.node[0].veinsmobility minSpeed 1.4392818092834
-scalar Lucky.node[0].veinsmobility maxSpeed 39.981052548531
-scalar Lucky.node[0].veinsmobility totalDistance 1978.5058122539
-scalar Lucky.node[0].veinsmobility totalCO2Emission 616.59138780124
+scalar Lucky.node[0].veinsmobility maxSpeed 24.245796778216
+scalar Lucky.node[0].veinsmobility totalDistance 169.78750048759
+scalar Lucky.node[0].veinsmobility totalCO2Emission 102.47849324388
 scalar Lucky.node[1].appl generatedWSMs 0
 scalar Lucky.node[1].appl receivedWSMs 0
 scalar Lucky.node[1].appl generatedBSMs 0
 scalar Lucky.node[1].appl receivedBSMs 0
 scalar Lucky.node[1].appl generatedWSAs 0
 scalar Lucky.node[1].appl receivedWSAs 0
-scalar Lucky.node[1].nic.phy80211p busyTime 2.216393442623e-05
+scalar Lucky.node[1].nic.phy80211p busyTime 2.0349598271536e-05
 scalar Lucky.node[1].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.node[1].nic.mac1609_4 ReceivedBroadcasts 0
 scalar Lucky.node[1].nic.mac1609_4 SentPackets 0
 scalar Lucky.node[1].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.node[1].nic.mac1609_4 RetriesExceeded 0
-scalar Lucky.node[1].nic.mac1609_4 SNIRLostPackets 13
+scalar Lucky.node[1].nic.mac1609_4 SNIRLostPackets 2
 scalar Lucky.node[1].nic.mac1609_4 RXTXLostPackets 0
-scalar Lucky.node[1].nic.mac1609_4 TotalLostPackets 13
+scalar Lucky.node[1].nic.mac1609_4 TotalLostPackets 2
 scalar Lucky.node[1].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.node[1].nic.mac1609_4 TooLittleTime 0
 scalar Lucky.node[1].nic.mac1609_4 TimesIntoBackoff 0
 scalar Lucky.node[1].nic.mac1609_4 SlotsBackoff 0
 scalar Lucky.node[1].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.node[1].nic.mac1609_4 totalBusyTime 0.001352
+scalar Lucky.node[1].nic.mac1609_4 totalBusyTime 0.000208
 scalar Lucky.node[1].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.node[1].nic.mac1609_4 sentAcks:count 0
@@ -129,36 +129,36 @@ scalar Lucky.node[1].nic.mac1609_4 sentPackets:count 0
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.node[1].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.node[1].nic.mac1609_4 channelBusy:timeavg 2.216393442623e-05
+scalar Lucky.node[1].nic.mac1609_4 channelBusy:timeavg 2.0349598271536e-05
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 scalar Lucky.node[1].veinsmobility startTime 4
-scalar Lucky.node[1].veinsmobility totalTime 60
-scalar Lucky.node[1].veinsmobility stopTime 65
+scalar Lucky.node[1].veinsmobility totalTime 10
+scalar Lucky.node[1].veinsmobility stopTime 14.221332
 scalar Lucky.node[1].veinsmobility minSpeed 1.2953648990485
-scalar Lucky.node[1].veinsmobility maxSpeed 39.936834992818
-scalar Lucky.node[1].veinsmobility totalDistance 1990.5588518372
-scalar Lucky.node[1].veinsmobility totalCO2Emission 611.63344561634
+scalar Lucky.node[1].veinsmobility maxSpeed 19.431260505924
+scalar Lucky.node[1].veinsmobility totalDistance 108.5010661169
+scalar Lucky.node[1].veinsmobility totalCO2Emission 67.189397191951
 scalar Lucky.node[2].appl generatedWSMs 0
 scalar Lucky.node[2].appl receivedWSMs 0
 scalar Lucky.node[2].appl generatedBSMs 0
 scalar Lucky.node[2].appl receivedBSMs 0
 scalar Lucky.node[2].appl generatedWSAs 0
 scalar Lucky.node[2].appl receivedWSAs 0
-scalar Lucky.node[2].nic.phy80211p busyTime 2.0459016393443e-05
+scalar Lucky.node[2].nic.phy80211p busyTime 1.4401775184966e-05
 scalar Lucky.node[2].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.node[2].nic.mac1609_4 ReceivedBroadcasts 0
 scalar Lucky.node[2].nic.mac1609_4 SentPackets 0
 scalar Lucky.node[2].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.node[2].nic.mac1609_4 RetriesExceeded 0
-scalar Lucky.node[2].nic.mac1609_4 SNIRLostPackets 12
+scalar Lucky.node[2].nic.mac1609_4 SNIRLostPackets 1
 scalar Lucky.node[2].nic.mac1609_4 RXTXLostPackets 0
-scalar Lucky.node[2].nic.mac1609_4 TotalLostPackets 12
+scalar Lucky.node[2].nic.mac1609_4 TotalLostPackets 1
 scalar Lucky.node[2].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.node[2].nic.mac1609_4 TooLittleTime 0
 scalar Lucky.node[2].nic.mac1609_4 TimesIntoBackoff 0
 scalar Lucky.node[2].nic.mac1609_4 SlotsBackoff 0
 scalar Lucky.node[2].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.node[2].nic.mac1609_4 totalBusyTime 0.001248
+scalar Lucky.node[2].nic.mac1609_4 totalBusyTime 0.000104
 scalar Lucky.node[2].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.node[2].nic.mac1609_4 sentAcks:count 0
@@ -167,36 +167,36 @@ scalar Lucky.node[2].nic.mac1609_4 sentPackets:count 0
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.node[2].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.node[2].nic.mac1609_4 channelBusy:timeavg 2.0459016393443e-05
+scalar Lucky.node[2].nic.mac1609_4 channelBusy:timeavg 1.4401775184966e-05
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 scalar Lucky.node[2].veinsmobility startTime 7
-scalar Lucky.node[2].veinsmobility totalTime 60
-scalar Lucky.node[2].veinsmobility stopTime 68
+scalar Lucky.node[2].veinsmobility totalTime 7
+scalar Lucky.node[2].veinsmobility stopTime 14.221332
 scalar Lucky.node[2].veinsmobility minSpeed 2.4706868049456
-scalar Lucky.node[2].veinsmobility maxSpeed 39.951342706475
-scalar Lucky.node[2].veinsmobility totalDistance 1981.1807447392
-scalar Lucky.node[2].veinsmobility totalCO2Emission 610.23373666662
+scalar Lucky.node[2].veinsmobility maxSpeed 13.628107809392
+scalar Lucky.node[2].veinsmobility totalDistance 58.324642425682
+scalar Lucky.node[2].veinsmobility totalCO2Emission 34.133507610994
 scalar Lucky.node[3].appl generatedWSMs 0
 scalar Lucky.node[3].appl receivedWSMs 0
 scalar Lucky.node[3].appl generatedBSMs 0
 scalar Lucky.node[3].appl receivedBSMs 0
 scalar Lucky.node[3].appl generatedWSAs 0
 scalar Lucky.node[3].appl receivedWSAs 0
-scalar Lucky.node[3].nic.phy80211p busyTime 2.0459016393443e-05
+scalar Lucky.node[3].nic.phy80211p busyTime 0
 scalar Lucky.node[3].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.node[3].nic.mac1609_4 ReceivedBroadcasts 0
 scalar Lucky.node[3].nic.mac1609_4 SentPackets 0
 scalar Lucky.node[3].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.node[3].nic.mac1609_4 RetriesExceeded 0
-scalar Lucky.node[3].nic.mac1609_4 SNIRLostPackets 12
+scalar Lucky.node[3].nic.mac1609_4 SNIRLostPackets 0
 scalar Lucky.node[3].nic.mac1609_4 RXTXLostPackets 0
-scalar Lucky.node[3].nic.mac1609_4 TotalLostPackets 12
+scalar Lucky.node[3].nic.mac1609_4 TotalLostPackets 0
 scalar Lucky.node[3].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.node[3].nic.mac1609_4 TooLittleTime 0
 scalar Lucky.node[3].nic.mac1609_4 TimesIntoBackoff 0
 scalar Lucky.node[3].nic.mac1609_4 SlotsBackoff 0
 scalar Lucky.node[3].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.node[3].nic.mac1609_4 totalBusyTime 0.001248
+scalar Lucky.node[3].nic.mac1609_4 totalBusyTime 0
 scalar Lucky.node[3].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.node[3].nic.mac1609_4 sentAcks:count 0
@@ -205,36 +205,36 @@ scalar Lucky.node[3].nic.mac1609_4 sentPackets:count 0
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.node[3].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.node[3].nic.mac1609_4 channelBusy:timeavg 2.0459016393443e-05
+scalar Lucky.node[3].nic.mac1609_4 channelBusy:timeavg 0
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 scalar Lucky.node[3].veinsmobility startTime 10
-scalar Lucky.node[3].veinsmobility totalTime 60
-scalar Lucky.node[3].veinsmobility stopTime 71
+scalar Lucky.node[3].veinsmobility totalTime 4
+scalar Lucky.node[3].veinsmobility stopTime 14.221332
 scalar Lucky.node[3].veinsmobility minSpeed 1.6184831429971
-scalar Lucky.node[3].veinsmobility maxSpeed 39.997062989185
-scalar Lucky.node[3].veinsmobility totalDistance 1993.2878615612
-scalar Lucky.node[3].veinsmobility totalCO2Emission 614.27531692656
+scalar Lucky.node[3].veinsmobility maxSpeed 7.0992822083412
+scalar Lucky.node[3].veinsmobility totalDistance 18.189588425937
+scalar Lucky.node[3].veinsmobility totalCO2Emission 11.187368846595
 scalar Lucky.node[4].appl generatedWSMs 0
 scalar Lucky.node[4].appl receivedWSMs 0
 scalar Lucky.node[4].appl generatedBSMs 0
 scalar Lucky.node[4].appl receivedBSMs 0
 scalar Lucky.node[4].appl generatedWSAs 0
 scalar Lucky.node[4].appl receivedWSAs 0
-scalar Lucky.node[4].nic.phy80211p busyTime 2.08e-05
+scalar Lucky.node[4].nic.phy80211p busyTime 0
 scalar Lucky.node[4].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.node[4].nic.mac1609_4 ReceivedBroadcasts 0
 scalar Lucky.node[4].nic.mac1609_4 SentPackets 0
 scalar Lucky.node[4].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.node[4].nic.mac1609_4 RetriesExceeded 0
-scalar Lucky.node[4].nic.mac1609_4 SNIRLostPackets 14
+scalar Lucky.node[4].nic.mac1609_4 SNIRLostPackets 0
 scalar Lucky.node[4].nic.mac1609_4 RXTXLostPackets 0
-scalar Lucky.node[4].nic.mac1609_4 TotalLostPackets 14
+scalar Lucky.node[4].nic.mac1609_4 TotalLostPackets 0
 scalar Lucky.node[4].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.node[4].nic.mac1609_4 TooLittleTime 0
 scalar Lucky.node[4].nic.mac1609_4 TimesIntoBackoff 0
 scalar Lucky.node[4].nic.mac1609_4 SlotsBackoff 0
 scalar Lucky.node[4].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.node[4].nic.mac1609_4 totalBusyTime 0.001456
+scalar Lucky.node[4].nic.mac1609_4 totalBusyTime 0
 scalar Lucky.node[4].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.node[4].nic.mac1609_4 sentAcks:count 0
@@ -243,26 +243,26 @@ scalar Lucky.node[4].nic.mac1609_4 sentPackets:count 0
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.node[4].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.node[4].nic.mac1609_4 channelBusy:timeavg 2.08e-05
+scalar Lucky.node[4].nic.mac1609_4 channelBusy:timeavg 0
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 scalar Lucky.node[4].veinsmobility startTime 13
-scalar Lucky.node[4].veinsmobility totalTime 69
-scalar Lucky.node[4].veinsmobility stopTime 83
+scalar Lucky.node[4].veinsmobility totalTime 1
+scalar Lucky.node[4].veinsmobility stopTime 14.221332
 scalar Lucky.node[4].veinsmobility minSpeed 1.9850660084514
-scalar Lucky.node[4].veinsmobility maxSpeed 33.293002767863
-scalar Lucky.node[4].veinsmobility totalDistance 1984.9787692956
-scalar Lucky.node[4].veinsmobility totalCO2Emission 504.02931786338
+scalar Lucky.node[4].veinsmobility maxSpeed 1.9850660084514
+scalar Lucky.node[4].veinsmobility totalDistance 1.9850660084514
+scalar Lucky.node[4].veinsmobility totalCO2Emission 0
 scalar Lucky.manager roiArea 0
 scalar Lucky.rsu[0].appl generatedWSMs 0
 scalar Lucky.rsu[0].appl receivedWSMs 0
-scalar Lucky.rsu[0].appl generatedBSMs 32
+scalar Lucky.rsu[0].appl generatedBSMs 3
 scalar Lucky.rsu[0].appl receivedBSMs 0
 scalar Lucky.rsu[0].appl generatedWSAs 0
 scalar Lucky.rsu[0].appl receivedWSAs 0
 scalar Lucky.rsu[0].nic.phy80211p busyTime 0
 scalar Lucky.rsu[0].nic.mac1609_4 ReceivedUnicastPackets 0
 scalar Lucky.rsu[0].nic.mac1609_4 ReceivedBroadcasts 0
-scalar Lucky.rsu[0].nic.mac1609_4 SentPackets 32
+scalar Lucky.rsu[0].nic.mac1609_4 SentPackets 3
 scalar Lucky.rsu[0].nic.mac1609_4 SentAcknowledgements 0
 scalar Lucky.rsu[0].nic.mac1609_4 RetriesExceeded 0
 scalar Lucky.rsu[0].nic.mac1609_4 SNIRLostPackets 0
@@ -270,18 +270,18 @@ scalar Lucky.rsu[0].nic.mac1609_4 RXTXLostPackets 0
 scalar Lucky.rsu[0].nic.mac1609_4 TotalLostPackets 0
 scalar Lucky.rsu[0].nic.mac1609_4 DroppedPacketsInMac 0
 scalar Lucky.rsu[0].nic.mac1609_4 TooLittleTime 0
-scalar Lucky.rsu[0].nic.mac1609_4 TimesIntoBackoff 31
-scalar Lucky.rsu[0].nic.mac1609_4 SlotsBackoff 52
+scalar Lucky.rsu[0].nic.mac1609_4 TimesIntoBackoff 2
+scalar Lucky.rsu[0].nic.mac1609_4 SlotsBackoff 6
 scalar Lucky.rsu[0].nic.mac1609_4 NumInternalContention 0
-scalar Lucky.rsu[0].nic.mac1609_4 totalBusyTime 0.003255
+scalar Lucky.rsu[0].nic.mac1609_4 totalBusyTime 0.00021
 scalar Lucky.rsu[0].nic.mac1609_4 retriesExceeded:count 0
 attr source org_car2x_veins_modules_mac_sigRetriesExceeded
 scalar Lucky.rsu[0].nic.mac1609_4 sentAcks:count 0
 attr source org_car2x_veins_modules_mac_sigSentAck
-scalar Lucky.rsu[0].nic.mac1609_4 sentPackets:count 32
+scalar Lucky.rsu[0].nic.mac1609_4 sentPackets:count 3
 attr source org_car2x_veins_modules_mac_sigSentPacket
 scalar Lucky.rsu[0].nic.mac1609_4 collisions:count 0
 attr source org_car2x_veins_modules_mac_sigCollision
-scalar Lucky.rsu[0].nic.mac1609_4 channelBusy:timeavg 2.044323996601e-05
+scalar Lucky.rsu[0].nic.mac1609_4 channelBusy:timeavg 1.4836866195093e-05
 attr source org_car2x_veins_modules_mac_sigChannelBusy
 
