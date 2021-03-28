@@ -1,4 +1,4 @@
-file 7188 1615404699                                            
+file 7188 1616949413                                            
 version 2
 run Default-0-20210311-01:01:28-10794
 attr configname Default
@@ -64,49 +64,48 @@ param *.node[*0].veinsmobility.accidentStart 73s
 param *.node[*0].veinsmobility.accidentDuration 50s
 
 vector 0 Lucky.node[0].veinsmobility posx ETV
-vector 1 Lucky.node[0].veinsmobility posy ETV
-vector 2 Lucky.node[0].veinsmobility speed ETV
-vector 3 Lucky.node[0].veinsmobility acceleration ETV
-vector 4 Lucky.node[0].veinsmobility co2emission ETV
-vector 5 Lucky.node[1].veinsmobility posx ETV
-vector 6 Lucky.node[1].veinsmobility posy ETV
-vector 7 Lucky.node[1].veinsmobility speed ETV
-vector 8 Lucky.node[1].veinsmobility acceleration ETV
-vector 9 Lucky.node[1].veinsmobility co2emission ETV
-vector 10 Lucky.node[2].veinsmobility posx ETV
-vector 11 Lucky.node[2].veinsmobility posy ETV
-vector 12 Lucky.node[2].veinsmobility speed ETV
-vector 13 Lucky.node[2].veinsmobility acceleration ETV
-vector 14 Lucky.node[2].veinsmobility co2emission ETV
-vector 15 Lucky.node[3].veinsmobility posx ETV
-vector 16 Lucky.node[3].veinsmobility posy ETV
-vector 17 Lucky.node[3].veinsmobility speed ETV
-vector 18 Lucky.node[3].veinsmobility acceleration ETV
-vector 19 Lucky.node[3].veinsmobility co2emission ETV
-vector 20 Lucky.node[4].veinsmobility posx ETV
-vector 21 Lucky.node[4].veinsmobility posy ETV
-vector 22 Lucky.node[4].veinsmobility speed ETV
 0	3488 312 2 58 1 14 14 30.1 199.88750048759 1260.6961206698 155600.84573705
+vector 1 Lucky.node[0].veinsmobility posy ETV
 1	3800 183 2 58 1 14 14 109.8 109.8 1537.2 168784.56
+vector 2 Lucky.node[0].veinsmobility speed ETV
 2	3983 300 3 58 2 14 13 1.4392818092834 24.245796778216 169.78750048759 2889.548749569
-3	4283 279 4 58 3 14 12 1.3194625368807 2.5164690105012 22.806514968933 44.728539664648
+vector 3 Lucky.node[0].veinsmobility acceleration ETV
+3	4283 279 4 58 3 14 12 1.3194625368807 2.5164690105012 22.806514968933 44.728539664649
+vector 4 Lucky.node[0].veinsmobility co2emission ETV
 4	4562 275 4 58 3 14 12 2.1732912127287 14.60474354419 102.47849324388 1024.8974814702
-5	4837 242 5 58 4 14 11 30.1 138.6010661169 763.39208556746 66923.312201318
+vector 5 Lucky.node[1].veinsmobility posx ETV
+5	4837 242 5 58 4 14 11 30.1 138.6010661169 763.39208556747 66923.312201319
+vector 6 Lucky.node[1].veinsmobility posy ETV
 6	5079 147 5 58 4 14 11 109.8 109.8 1207.8 132616.44
+vector 7 Lucky.node[1].veinsmobility speed ETV
 7	5226 234 25 58 5 14 10 1.2953648990485 19.431260505924 108.5010661169 1506.0754206042
-8	5460 212 26 58 6 14 9 1.3127084472915 2.5457943856018 18.135895606875 38.00931899342
-9	5672 211 26 58 6 14 9 3.6572242613183 13.003236923982 67.189397191951 569.51766550342
+vector 8 Lucky.node[1].veinsmobility acceleration ETV
+8	5460 212 26 58 6 14 9 1.3127084472915 2.5457943856018 18.135895606876 38.00931899342
+vector 9 Lucky.node[1].veinsmobility co2emission ETV
+9	5672 211 26 58 6 14 9 3.6572242613183 13.003236923982 67.18939719195 569.5176655034
+vector 10 Lucky.node[2].veinsmobility posx ETV
 10	5883 186 27 58 7 14 8 30.1 88.424642425682 421.28868852016 25290.257351753
+vector 11 Lucky.node[2].veinsmobility posy ETV
 11	6069 117 27 58 7 14 8 109.8 109.8 878.4 96448.32
-12	6186 173 28 58 8 14 7 2.4706868049456 13.628107809392 58.324642425682 585.85334637006
-13	6359 148 29 58 9 14 6 1.4115459870081 2.0555503404466 11.157421004446 21.043236614039
+vector 12 Lucky.node[2].veinsmobility speed ETV
+12	6186 173 28 58 8 14 7 2.4706868049456 13.628107809392 58.324642425683 585.85334637009
+vector 13 Lucky.node[2].veinsmobility acceleration ETV
+13	6359 148 29 58 9 14 6 1.4115459870081 2.0555503404466 11.157421004446 21.043236614038
+vector 14 Lucky.node[2].veinsmobility co2emission ETV
 14	6507 149 29 58 9 14 6 3.5791537103477 7.0525910907173 34.133507610994 203.50610385035
+vector 15 Lucky.node[3].veinsmobility posx ETV
 15	6656 114 54 58 10 14 5 30.1 48.289588425937 186.92358613983 7209.7533197542
+vector 16 Lucky.node[3].veinsmobility posy ETV
 16	6770 75 54 58 10 14 5 109.8 109.8 549 60280.2
+vector 17 Lucky.node[3].veinsmobility speed ETV
 17	6845 100 55 58 11 14 4 1.6184831429971 7.0992822083412 18.189588425937 99.25211166585
+vector 18 Lucky.node[3].veinsmobility acceleration ETV
 18	6945 74 56 58 12 14 3 1.534184344043 2.2882420673035 5.480799065344 10.339973219611
+vector 19 Lucky.node[3].veinsmobility co2emission ETV
 19	7019 74 56 58 12 14 3 3.4583960904282 4.1104002001188 11.187368846595 41.949960666809
+vector 20 Lucky.node[4].veinsmobility posx ETV
 20	7093 39 57 58 13 14 2 30.1 32.085066008451 62.185066008451 1935.4614607667
+vector 21 Lucky.node[4].veinsmobility posy ETV
 21	7132 30 57 58 13 14 2 109.8 109.8 219.6 24112.08
-22	7162 25 58 58 14 14 1 1.9850660084514 1.9850660084514 1.9850660084514 3.9404870579092
-
+vector 22 Lucky.node[4].veinsmobility speed ETV
+22	7162 26 58 58 14 14 1 1.9850660084514 1.9850660084514 1.9850660084514 3.9404870579092

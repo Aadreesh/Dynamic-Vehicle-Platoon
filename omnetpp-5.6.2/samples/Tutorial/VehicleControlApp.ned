@@ -20,6 +20,6 @@ import org.car2x.veins.modules.application.ieee80211p.DemoBaseApplLayer;
 //
 simple VehicleControlApp extends DemoBaseApplLayer
 {
-    @class(VehicleControlApp);
+    @class(veins::VehicleControlApp);
     string appName = default("My first Veins App!");
 }

@@ -5,15 +5,22 @@
 // (at your option) any later version.
 // 
 // This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANT//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Lesser General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU Lesser General Public License for more details.
 // 
-// You should have received a copy of the GNU Lesser General Public License
-// along with this program.  If not, see http://www.gnu.org/licenses/.
-// 
-
+// You should have rece//
+// network description file for your Veins Application. Add parameters here
+//
 #include "VehicleControlApp.h"
+
 #include "veins/modules/application/traci/MyVeinsApp.h"
 using namespace veins;
 Define_Module(VehicleControlApp);
@@ -48,11 +55,12 @@ void VehicleControlApp::initialize(int stage)
     }
     else if (stage == 1) {
         // Initializing members that require initialized other modules goes here
+        int idDebug = getId();
         if (getId() == 14){
         // this is the head vehicle
-        startService(Channels::SCH2, currentOfferedServiceId, "Platoon Lead Vehicle Service");
+        startService(Channel::sch2, currentOfferedServiceId, "Platoon Lead Vehicle Service");
         //scheduleAt()
-        scheduleAt(computeAsynchronousSendingTime(beaconInterval, type_CCH),sendBeaconEvt);
+        scheduleAt(computeAsynchronousSendingTime(beaconInterval, ChannelType::control),sendBeaconEvt);
         }
     }
 }

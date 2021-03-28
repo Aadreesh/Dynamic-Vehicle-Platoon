@@ -2,7 +2,7 @@
 # OMNeT++/OMNEST Makefile for Tutorial
 #
 # This file was generated with the command:
-#  opp_makemake -f --deep -O out -KVEINS_PROJ=/home/aadreesh/omnetpp-5.6.2/veins-5.1/veins-veins-5.1 -DVEINS_IMPORT -I. -I$$\(VEINS_PROJ\)/src -Isrc -L$$\(VEINS_PROJ\)/src -lveins$$\(D\)
+#  opp_makemake -f --deep -O out -KVEINS_PROJ=/home/mukherji/omnetProject/Basabdatta/Dynamic-Vehicle-Platoon/omnetpp-5.6.2/veins-5.1/veins-veins-5.1 -DVEINS_IMPORT -I. -I$$\(VEINS_PROJ\)/src -Isrc -L$$\(VEINS_PROJ\)/src -lveins$$\(D\)
 #
 
 # Name of target to be created (-o option)
@@ -39,7 +39,7 @@ MSGFILES =
 SMFILES =
 
 # Other makefile variables (-K)
-VEINS_PROJ=/home/aadreesh/omnetpp-5.6.2/veins-5.1/veins-veins-5.1
+VEINS_PROJ=/home/mukherji/omnetProject/Basabdatta/Dynamic-Vehicle-Platoon/omnetpp-5.6.2/veins-5.1/veins-veins-5.1
 
 #------------------------------------------------------------------------------
 
